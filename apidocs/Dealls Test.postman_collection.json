@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "11dc9c7a-a110-4efd-9221-1c9e4bf811ad",
+		"name": "Dealls Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "3036841"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\":\"unique7@yopmail.com\",\n    \"password\":\"123123123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "127.0.0.1:8080/auth/login"
+			},
+			"response": []
+		},
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\":\"unique7\",\n    \"email\":\"unique7@yopmail.com\",\n    \"password\":\"123123123\",\n    \"fullname\":\"Mike Bay\",\n    \"profile_picture\":\"abc.jpg\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "127.0.0.1:8080/auth/register"
+			},
+			"response": []
+		},
+		{
+			"name": "Check-Premium Status",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "127.0.0.1:8080/auth/check-status"
+			},
+			"response": []
+		}
+	]
+}
