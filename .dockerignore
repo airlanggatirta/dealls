@@ -1,0 +1,34 @@
+# Ignore Go binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Ignore vendor directories
+vendor/
+
+# Ignore Docker related files
+Dockerfile
+.dockerignore
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore test files
+*_test.go
+
+# Ignore git-related files
+.git/
+.gitignore
+
+# Ignore build artifacts
+*.o
+*.a
+*.out
+*.log
+
+# Ignore specific directories or files
+config/config.yaml
+config/config.json
