@@ -2,6 +2,21 @@
 
 This is a simple web application written in Go using the Gin framework. It provides user authentication functionality with MySQL database integration.
 
+## Structure
+    ```
+    - main.go
+    - config
+        - Config folder use to store db info and server info.
+    - handler
+        - Handler is used to dechiper requests and construct responses.
+    - service
+        - Service is used to define business process that should be done for the incoming request.
+    - repository
+        - Repository is used to communicate with database.
+    - models
+        - Models is used to define each entity for the process to take place.
+    ```
+
 ## Installation
 
 1. **Clone the repository:**
@@ -49,7 +64,3 @@ This is a simple web application written in Go using the Gin framework. It provi
 ## Contributing
 
 - Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests to improve the application.
-
-## License
-
-- This project is licensed under the [MIT License](LICENSE).
