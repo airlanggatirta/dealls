@@ -44,7 +44,7 @@ This is a simple web application written in Go using the Gin framework. It provi
 - [Gin](https://github.com/gin-gonic/gin): HTTP web framework for Go.
 - [GORM](https://gorm.io/): ORM library for Go, used for interacting with the database.
 - [bcrypt](https://pkg.go.dev/golang.org/x/crypto/bcrypt): Library for hashing passwords securely.
-- [MySQL](gorm.io/driver/mysql): MySQL database driver for Go.
+- [MySQL](https://github.com/go-gorm/mysql): MySQL database driver for Go.
 
 ## Contributing
 
@@ -53,7 +53,3 @@ This is a simple web application written in Go using the Gin framework. It provi
 ## License
 
 - This project is licensed under the [MIT License](LICENSE).
-
----
-
-Feel free to customize the README according to your specific project requirements and provide additional instructions or information as needed.
