@@ -1,10 +1,4 @@
-# dealls
-
-Certainly! Here's a sample README file to help users get the Go code up and running:
-
----
-
-# Go Web Application
+# Dealls Test
 
 This is a simple web application written in Go using the Gin framework. It provides user authentication functionality with MySQL database integration.
 
